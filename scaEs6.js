@@ -7,8 +7,7 @@ const integer = (a, b) =>{
 }
 integer(2 , 5);
 
-
-function checkValue(num){
+const checkValue = (num) =>{
     for (let i = 0; i<= num; i++){
        if (i %2 === 0){
            console.log(`${i} is even`);
@@ -20,7 +19,7 @@ function checkValue(num){
 }
 checkValue(20);
 
-function multiple(num){
+const multiple = (num) =>{
 
     for (i = 0; i <= num; i++){
         if (i % 3 && i % 5){
